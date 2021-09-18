@@ -3,7 +3,7 @@
 
 ### Two steps to excute
 - Write in package.json > script
-    `lockVersion": "yarn list --depth=0 --json > currentVersion.json && node lockVersion"`
+    ```lockVersion": "yarn list --depth=0 --json > currentVersion.json && node lockVersion"```
 
 - Terminal RUN
-    `node lockVersion.js`
+    ```node lockVersion.js```
